@@ -4,6 +4,7 @@
     <list default="true" id="8c7968aa-0339-49d7-8e95-0c53db293718" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/questions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +164,8 @@
       <workItem from="1594616598177" duration="3839000" />
       <workItem from="1594635469522" duration="2989000" />
       <workItem from="1594639398451" duration="18000" />
-      <workItem from="1594703750646" duration="2511000" />
+      <workItem from="1594703750646" duration="3064000" />
+      <workItem from="1594875928519" duration="986000" />
     </task>
     <servers />
   </component>
@@ -175,9 +177,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="322" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1594618971184" />
-    <state x="714" y="490" key="NewPhpFileDialog" timestamp="1594705795489">
+    <state x="714" y="490" key="NewPhpFileDialog" timestamp="1594876510934">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="714" y="490" key="NewPhpFileDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1594705795489" />
+    <state x="714" y="490" key="NewPhpFileDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1594876510934" />
   </component>
 </project>
