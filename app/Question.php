@@ -20,14 +20,14 @@ class Question extends Model
         $this->attributes['slug'] = Str::slug($value);
     }
 
-    public function getBodyAttribute($value)
+    public function getBodyShortAttribute()
     {
-        return Str::limit($value, 250);
+        return Str::limit($this->body, 250);
     }
 
     public function getUrlAttribute()
     {
-        return route('questions.show', $this->id);
+        return route('questions.show', $this->slug);
     }
 
     public function getCreatedDateAttribute()

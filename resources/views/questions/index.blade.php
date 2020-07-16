@@ -45,7 +45,7 @@
                                         <a href="{{ $question->user->url }}">{{ $question->user->name }}</a>
                                         <small class="text-muted">{{ $question->created_date }}</small>
                                     </p>
-                                    {{ $question->body }}
+                                    {{ $question->body_short }}
                                 </div>
                             </div>
                             <hr>
