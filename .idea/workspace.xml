@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8c7968aa-0339-49d7-8e95-0c53db293718" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,7 @@
       <workItem from="1594971039923" duration="12000" />
       <workItem from="1594971358831" duration="229000" />
       <workItem from="1595221365104" duration="4091000" />
-      <workItem from="1595244504201" duration="1366000" />
+      <workItem from="1595244504201" duration="3086000" />
     </task>
     <servers />
   </component>
@@ -186,9 +185,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="322" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1594618971184" />
-    <state x="714" y="490" key="NewPhpFileDialog" timestamp="1594878286652">
+    <state x="714" y="490" key="NewPhpFileDialog" timestamp="1595248573091">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="714" y="490" key="NewPhpFileDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1594878286652" />
+    <state x="714" y="490" key="NewPhpFileDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1595248573091" />
   </component>
 </project>
