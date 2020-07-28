@@ -6,9 +6,8 @@
       <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/AnswerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/AnswerFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/QuestionFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
@@ -183,7 +182,9 @@
       <workItem from="1595244504201" duration="3461000" />
       <workItem from="1595394122808" duration="3542000" />
       <workItem from="1595481214077" duration="7222000" />
-      <workItem from="1595498617475" duration="1587000" />
+      <workItem from="1595498617475" duration="1954000" />
+      <workItem from="1595826535087" duration="3347000" />
+      <workItem from="1595912043919" duration="1432000" />
     </task>
     <servers />
   </component>
@@ -195,10 +196,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="322" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1594618971184" />
-    <state x="714" y="490" key="NewPhpFileDialog" timestamp="1595395046244">
+    <state x="714" y="490" key="NewPhpFileDialog" timestamp="1595913381691">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="714" y="490" key="NewPhpFileDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1595395046244" />
+    <state x="714" y="490" key="NewPhpFileDialog/-56.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1595913381691" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1595490335643">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
