@@ -51,6 +51,14 @@ class AnswersController extends Controller
         $answer->update($request->validate([
             'body' => 'required'
         ]));
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'message' => 'Your answer has been updated',
+                'body' => $answer->body
+        ]);
+        }
+
         return redirect()->route('questions.show', $question->slug)->with('success', 'Your answer has been updated');
     }
 
@@ -64,6 +72,13 @@ class AnswersController extends Controller
     {
         $this->authorize('delete', $answer);
         $answer->delete();
+
+        if (request()->expectsJson()) {
+            return response()->json([
+                'message' => 'Yout answer has been removed'
+            ]);
+        }
+
         return back()->with('success', 'Yout answer has been removed');
     }
 }
