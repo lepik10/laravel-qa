@@ -82,6 +82,15 @@ class QuestionsController extends Controller
     {
         $this->authorize('update', $question);
         $question->update($request->only('title', 'body'));
+
+        if ($request->expectsJson())
+        {
+            return response()->json([
+                'message' => 'Your question has been udated',
+                'body' => $question->body
+            ]);
+        }
+
         return redirect()->route('questions.index')->with('success', 'Your question has been udated');
     }
 
@@ -95,6 +104,13 @@ class QuestionsController extends Controller
     {
         $this->authorize('delete', $question);
         $question->delete();
+
+        if(request()->expectsJson()) {
+            return response()->json([
+                'message' => 'Your question has been deleted'
+            ]);
+        }
+
         return redirect()->route('questions.index')->with('success', 'Your question has been deleted');
     }
 }

@@ -31,11 +31,19 @@
 </template>
 
 <script>
+    import Vote from "./Vote";
+    import UserInfo from "./UserInfo";
+    import modification from "../mixins/modification";
+
     export default {
         props: ['answer'],
+        mixins: [modification],
+        components: {
+            Vote,
+            UserInfo
+        },
         data() {
             return {
-                editing: false,
                 body: this.answer.body,
                 bodyHtml: this.answer.body,
                 id: this.answer.id,
@@ -44,53 +52,22 @@
             }
         },
         methods: {
-            edit() {
+            setEditCache() {
                 this.beforeEditCache = this.body;
-                this.editing = true;
             },
-            cancel() {
+            restoreFromCache() {
                 this.body = this.beforeEditCache;
-                this.editing = false;
             },
-            update() {
-                axios.patch(this.endpoint, {
+            payload() {
+                return {
                     body: this.body
-                })
-                    .then(res => {
-                        this.editing = false;
-                        this.body = res.data.body;
-                        this.$toast.success(res.data.message, "Success", { timeout: 3000 });
-                    })
-                    .catch(err => {
-                        this.$toast.error(res.data.message, "Error", { timeout: 3000 });
-                    });
+                }
             },
-            destroy() {
-                this.$toast.question('Are you sure about that?', 'Confirm', {
-                    timeout: 20000,
-                    close: false,
-                    overlay: true,
-                    displayMode: 'once',
-                    id: 'question',
-                    zindex: 999,
-                    title: 'Hey',
-                    position: 'center',
-                    buttons: [
-                        ['<button><b>YES</b></button>', (instance, toast) => {
-                            axios.delete(this.endpoint)
-                                .then(res => {
-                                    this.$emit('deleted');
-                                });
-                            instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
-
-                        }, true],
-                        ['<button>NO</button>', function (instance, toast) {
-
-                            instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
-
-                        }],
-                    ]
-                });
+            delete() {
+                axios.delete(this.endpoint)
+                    .then(res => {
+                        this.$emit('deleted');
+                    });
             }
         },
         computed: {
